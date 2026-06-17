@@ -6,7 +6,21 @@
 
 ## Installation
 
-Add superpowers to the `plugin` array in your `opencode.json` (global or project-level):
+### Quick Install (Recommended)
+
+Run the install command in your project directory:
+
+```bash
+npx superpowers init
+```
+
+This automatically adds superpowers to your `opencode.json`. Restart OpenCode
+and the plugin installs through OpenCode's plugin manager.
+
+### Manual Install
+
+Alternatively, add superpowers to the `plugin` array in your `opencode.json`
+(global or project-level):
 
 ```json
 {

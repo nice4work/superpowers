@@ -4,6 +4,18 @@ Complete guide for using Superpowers with [OpenCode.ai](https://opencode.ai).
 
 ## Installation
 
+### Quick Install (Recommended)
+
+Run the install command in your project directory:
+
+```bash
+npx superpowers init
+```
+
+This automatically adds superpowers to your `opencode.json`. Restart OpenCode and the plugin installs automatically.
+
+### Manual Install
+
 Add superpowers to the `plugin` array in your `opencode.json` (global or project-level):
 
 ```json
