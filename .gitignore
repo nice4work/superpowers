@@ -8,3 +8,9 @@ inspo
 triage/
 .idea/
 .opencode/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
